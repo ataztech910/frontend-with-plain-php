@@ -1,7 +1,7 @@
 <?php
     require "head.php";
-    require "main.php";
     require "table.php";
+    require "contacts.php";
     require "navigation.php";
     $mainTable = ['Hello', 'Gutten Morgen'];
 ?>
@@ -10,6 +10,7 @@
     <body>
         <?php echo Navigation();?>
         <?php echo Table($mainTable);?>
-        <?php echo Main();?>    
+        BLOG
+        <?php echo Contacts();?>
     </body>
 </html>
